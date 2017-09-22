@@ -6,7 +6,6 @@ class SimpleArticle extends Component {
   };
 
   componentWillMount() {
-    if (process.env.BROWSER) {
       const {
         FRN_rawResponses: [
           {
@@ -23,7 +22,7 @@ class SimpleArticle extends Component {
           bodyHtml: bodyHtmlWithoutScripts
         });
       }
-    }
+    
   }
 
   render() {
