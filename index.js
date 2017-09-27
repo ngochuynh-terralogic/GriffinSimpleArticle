@@ -54,7 +54,7 @@ class SimpleArticle extends Component {
           .SimpleArticle-body{
             transform: rotate(.5deg);
           }
-        ` }} />
+        `}} />
         <h1 className="SimpleArticle-headline"> {headline} </h1>
         <div className="SimpleArticle-abstract" dangerouslySetInnerHTML={{ __html: abstract }}></div>
         <div className="SimpleArticle-body" dangerouslySetInnerHTML={{ __html: bodyHtml }}></div>
